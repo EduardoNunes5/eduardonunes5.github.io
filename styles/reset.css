@@ -46,7 +46,8 @@ ul {
 :root {
     --primary-color: #0A1124;
     --secondary-color: #12223B;
-    --tertiary-color: #0E3B4F;
+    --tertiary-color: rgb(14,59,79);
+    --tertiary-light: rgba(14, 59, 79, .3);
     --light-blue: #A1CCDC;
     --title-color: #71B7D5;
 }

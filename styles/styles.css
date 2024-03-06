@@ -9,6 +9,11 @@ main{
     overflow-y: auto;
 }
 
+#projects{
+    background-color: var(--tertiary-light);
+    color: yellow;
+}
+
 .breakable-text {
     word-break: break-all;
 }
@@ -36,12 +41,15 @@ section {
     justify-content: center;
 }
 
+#skills{
+    margin-top: 1em;
+    background-color: var(--tertiary-color);
+}
+
 #skills ul {
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3em;
-
-
 }

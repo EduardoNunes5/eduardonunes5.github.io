@@ -1,0 +1,47 @@
+
+.slider-container {
+    width: 20em;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slider {
+    width: 12em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .2s;
+    align-items: center;
+}
+
+.on {
+    opacity: 1;
+}
+
+#prev-btn, #next-btn{
+    position: absolute;
+    border: none;
+    background-color: var(--title-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: .5em;
+    width: 3em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 0;
+    top:40%;
+}
+
+#next-btn{
+    top: 40%;
+    right: 0;
+}
