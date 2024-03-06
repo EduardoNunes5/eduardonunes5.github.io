@@ -1,0 +1,47 @@
+
+
+#about {
+    display: flex;
+    background-color: var(--tertiary-color);
+    padding: 2em;
+    margin-top: 1em;
+    align-self: center;
+    width: 90%;
+    margin: 1em auto;
+}
+
+#about h2{
+    font-size: 2em;
+}
+
+#about p {
+    width: 15em;
+    font-size: 1.2em;
+}
+
+@media (min-width: 600px){
+    #about {
+        width: 80%;
+        margin: 1em auto;
+    }
+}
+
+
+@media (min-width: 1280px) {
+
+    #about{
+         align-self: start;
+         align-items: start;
+    }
+
+    #about h2{
+        font-size: 4em;
+        text-align: start;
+    }
+
+    #about p {
+        width: 20em;
+        font-size: 2em;
+        text-align: start;
+    }
+}
