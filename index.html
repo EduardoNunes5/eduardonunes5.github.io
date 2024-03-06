@@ -2,9 +2,11 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eduardo</title>
     <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/carousel.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
     <script type="module" src="scripts/index.mjs"></script>
   </head>
@@ -30,81 +32,150 @@
     </header>
     <main>
       <section id="about" class="section-content">
-        <p id="about-text">
-          Olá, sou um desenvolvedor de software.
-        </p>
-
+        <p id="about-text">Olá, sou um desenvolvedor de software.</p>
       </section>
-      <section id="projects">
+      <section id="projects" class="carousel">
         <h2>Projetos</h2>
-        <ul>
-            <li>
-                <img src="assets/projects/logo-termobake.png" width="100" height="100"/>
-                <span class="">TermoBake</span>
-                <span class="breakable-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae quae maiores amet, saepe illum, eos nulla provident pariatur deserunt sequi fugiat nesciunt. Quisquam consequatur expedita suscipit a quibusdam illo?</span>
-            </li>
-            <li class="">
-                <img src="assets/projects/logo-termobake.png" width="100" height="100"/>
-                <span class="">TermoBake</span>
-                <span class="breakable-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus facilis mollitia quibusdam, optio harum quas magnam ex adipisci consectetur ad praesentium placeat autem quam dignissimos amet provident nobis eius quidem!\</span>
-            </li>
-            <li class="">
-                <img src="assets/projects/logo-termobake.png" width="100" height="100"/>
-                <span class="">TermoBake</span>
-                <span class="breakable-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus aut exercitationem porro nostrum distinctio in excepturi error quis laborum quia voluptate, fugit obcaecati earum nobis itaque et quae ea? Nam.</span>
-            </li>
-            <li class="">
-                <img src="assets/projects/logo-termobake.png" width="100" height="100"/>
-                <span class="">TermoBake</span>
-                <span class="breakable-text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sapiente facere vel amet, deserunt harum iusto similique quod architecto sequi, consequatur modi temporibus error quidem! Esse, voluptates iure. Reprehenderit, porro?</span>
-            </li>
-            <li class="">
-                <img src="assets/projects/logo-termobake.png" width="100" height="100"/>
-                <span class="">TermoBake</span>
-                <span class="breakable-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta labore iure assumenda, rem sit architecto non. Illum hic blanditiis sunt dignissimos deleniti, harum laborum. Molestias officiis quis doloribus quasi ipsa.</span>
-            </li>
-            <li class="">
-                <img src="assets/projects/logo-termobake.png" width="100" height="100"/>
-                <span class="">TermoBake</span>
-                <span class="breakable-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ut aspernatur, debitis molestiae ex tempore iure quae quis mollitia earum voluptate, architecto ea veritatis alias cupiditate autem numquam pariatur reiciendis?</span>
-            </li>
+        <ul class="">
+          <li class="slider-item card">
+            <img src="assets/projects/logo-termobake.png" class="slider-img" />
+            <span class="">TermoBake</span>
+            <span class="breakable-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              beatae quae maiores amet, saepe illum, eos nulla provident
+              pariatur deserunt sequi fugiat nesciunt. Quisquam consequatur
+              expedita suscipit a quibusdam illo?</span
+            >
+          </li>
+          <li class="slider-item card">
+            <img src="assets/projects/logo-termobake.png" class="slider-img" />
+            <span class="">TermoBake</span>
+            <span class="breakable-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus facilis mollitia quibusdam, optio harum quas magnam ex
+              adipisci consectetur ad praesentium placeat autem quam dignissimos
+              amet provident nobis eius quidem!\</span
+            >
+          </li>
+          <li class="slider-item card">
+            <img src="assets/projects/logo-termobake.png" class="slider-img" />
+            <span class="">TermoBake</span>
+            <span class="breakable-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
+              aut exercitationem porro nostrum distinctio in excepturi error
+              quis laborum quia voluptate, fugit obcaecati earum nobis itaque et
+              quae ea? Nam.</span
+            >
+          </li>
+          <li class="slider-item card">
+            <img
+              src="assets/projects/logo-termobake.png"
+              width="100"
+              height="100"
+              class="slider-img"
+            />
+            <span class="">TermoBake</span>
+            <span class="breakable-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+              sapiente facere vel amet, deserunt harum iusto similique quod
+              architecto sequi, consequatur modi temporibus error quidem! Esse,
+              voluptates iure. Reprehenderit, porro?</span
+            >
+          </li>
+          <li class="slider-item card">
+            <img src="assets/projects/logo-termobake.png" class="slider-img" />
+            <span class="">TermoBake</span>
+            <span class="breakable-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              labore iure assumenda, rem sit architecto non. Illum hic
+              blanditiis sunt dignissimos deleniti, harum laborum. Molestias
+              officiis quis doloribus quasi ipsa.</span
+            >
+          </li>
+          <li class="slider-item card">
+            <img src="assets/projects/logo-termobake.png" class="slider-img" />
+            <span class="">TermoBake</span>
+            <span class="breakable-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+              ut aspernatur, debitis molestiae ex tempore iure quae quis
+              mollitia earum voluptate, architecto ea veritatis alias cupiditate
+              autem numquam pariatur reiciendis?</span
+            >
+          </li>
         </ul>
-
       </section>
       <section id="skills" class="section-content">
         <h2 class="section-title">Tecnologias</h2>
 
         <ul id="">
           <li class="">
-            <img class="tech-img" src="assets/icons8-java.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-java.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-spring-boot.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-spring-boot.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-postgresql.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-postgresql.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-angular.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-angular.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-js.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-js.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-typescript.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-typescript.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-kotlin.png" width="55" height="55" />
+            <img
+              class="tech-img"
+              src="assets/icons8-kotlin.png"
+              width="55"
+              height="55"
+            />
           </li>
           <li class="">
-            <img class="tech-img" src="assets/icons8-firebase.png" width="55" height="55"/>
+            <img
+              class="tech-img"
+              src="assets/icons8-firebase.png"
+              width="55"
+              height="55"
+            />
           </li>
         </ul>
       </section>
       <section id="courses" class="">
-        <h2 class="section-title">
-            Cursos
-        </h2>
+        <h2 class="section-title">Cursos</h2>
       </section>
       <section id="contact" class="">
         <h2 class="section-title">Fale comigo</h2>

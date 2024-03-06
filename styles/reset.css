@@ -16,7 +16,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    color: var(--text-color);
+    color: var(--light-blue);
 }
 
 article, aside, details, figcaption, figure, 
@@ -47,7 +47,7 @@ ul {
     --primary-color: #0A1124;
     --secondary-color: #12223B;
     --tertiary-color: #0E3B4F;
-    --text-color: #A1CCDC;
+    --light-blue: #A1CCDC;
     --title-color: #71B7D5;
 }
 
