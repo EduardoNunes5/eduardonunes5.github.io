@@ -22,6 +22,16 @@ header nav ul {
     gap: 1.5em;
 }
 
+
+.nav-item:hover {
+    background-color: var(--tertiary-light);
+    cursor: pointer;
+}
+
+.nav-item{
+    padding: .3em;
+}
+
 @media (min-width: 630px) {
     
     header{
@@ -41,5 +51,9 @@ header nav ul {
 
     header span {
         font-size: 2em;
+    }
+
+    .nav-item{
+        padding: 1em;
     }
 }

@@ -5,7 +5,6 @@
 }
 
 main{
-    margin-bottom: 4em;
     overflow-y: auto;
 }
 
@@ -18,9 +17,9 @@ main{
 }
 
 footer{
-    height: 4em;
-    position: fixed;
-    bottom: 0;
+    height: 10em;
+    /* position: fixed;
+    bottom: 0; */
     color: red;
 }
 
