@@ -33,3 +33,19 @@
     padding: 1em;
     border: 4px solid var(--tertiary-light);
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: var(--tertiary-light);
+    cursor: pointer;
+}
+
+.app-description {
+    margin-top: 0.3em;
+    text-align: justify;
+}
