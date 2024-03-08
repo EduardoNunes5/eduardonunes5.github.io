@@ -26,7 +26,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     max-width: 100%;
-    max-height: 100%;
     box-sizing: border-box;
     background-color: var(--primary-color);
 }
@@ -50,12 +49,4 @@ ul {
     --tertiary-light: rgba(14, 59, 79, .3);
     --light-blue: #A1CCDC;
     --title-color: #71B7D5;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
-    max-height: 100%;
-    max-width: 100%;
-    overflow: hidden;
 }

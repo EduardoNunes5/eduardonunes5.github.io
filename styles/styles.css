@@ -1,12 +1,4 @@
-.page-container{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
 
-main{
-    overflow-y: auto;
-}
 
 #projects{
     background-color: var(--tertiary-light);
@@ -15,15 +7,6 @@ main{
 .breakable-text {
     word-break: break-all;
 }
-
-footer{
-    height: 10em;
-    /* position: fixed;
-    bottom: 0; */
-    color: red;
-}
-
-
 
 #intro-text {
     font-size: 3em;
@@ -37,6 +20,8 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    scroll-margin-top: 5em;
+
 }
 
 #skills{
@@ -50,4 +35,22 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3em;
+}
+
+
+footer{
+    background-color: var(--tertiary-color);
+    height: 6em;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-list {
+    display: flex;
+    column-gap: 3em;
 }
