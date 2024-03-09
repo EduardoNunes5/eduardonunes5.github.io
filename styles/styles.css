@@ -19,9 +19,12 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    scroll-margin-top: 5em;
+    scroll-margin-top: 11em;
 
+}
+
+.full-screen{
+    height:100vh;
 }
 
 #skills{
@@ -39,7 +42,7 @@ section {
 
 
 footer{
-    background-color: var(--tertiary-color);
+    background-color: var(--tertiary-light);
     height: 6em;
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
@@ -48,6 +51,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
 .contact-list {

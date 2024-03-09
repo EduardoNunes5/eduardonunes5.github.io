@@ -3,11 +3,13 @@
 #about {
     display: flex;
     background-color: var(--tertiary-color);
+    flex-direction: column;
     padding: 0 2em 2em 2em;
-    margin-top: 1em;
     align-self: center;
     width: 90%;
     margin: 1em auto;
+    height: 90%;
+    justify-content: center;
 }
 
 #about h2{
@@ -24,7 +26,6 @@
 @media (min-width: 600px){
     #about {
         width: 80%;
-        margin: 1em auto;
     }
 }
 

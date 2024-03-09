@@ -33,6 +33,8 @@
 .carousel .card {
     padding: 1em;
     border: 4px solid var(--tertiary-light);
+    border-radius: .3em;
+    background-color: var(--tertiary-color);
 }
 
 .card{
